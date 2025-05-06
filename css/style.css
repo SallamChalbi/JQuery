@@ -11,6 +11,10 @@ body{
     font-size: 16px;
 }
 
+nav{
+    background-color: #0e111b !important;
+}
+
 .navbar{
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -29,4 +33,320 @@ body{
 
 .nav-link{
     margin-right : 20px;
+}
+
+.home h1 img{
+    width: 40px;
+    animation: hi 2.5s linear infinite;
+}
+
+@keyframes hi{
+    0%{
+        transform: rotate(0deg);
+    }
+    5%{
+        transform: rotate(-5deg);
+    }
+    10%{
+        transform: rotate(5deg);
+    }
+    15%{
+        transform: rotate(-7deg);
+    }
+    20%{
+        transform: rotate(5deg);
+    }
+    25%{
+        transform: rotate(-6deg);
+    }
+    30%{
+        transform: rotate(0deg);
+    }
+}
+
+.typed::after {
+    content: '';
+    animation: anime 10s infinite;
+}
+
+@keyframes anime {
+    0% {
+        content: 'F|';
+    }
+
+    1% {
+        content: 'Fu|';
+    }
+
+    2% {
+        content: 'Ful|';
+    }
+
+    3% {
+        content: 'Full|';
+    }
+
+    4% {
+        content: 'FullS|';
+    }
+
+    5% {
+        content: 'FullSt|';
+    }
+
+    6% {
+        content: 'FullSta|';
+    }
+
+    7% {
+        content: 'FullStac|';
+    }
+
+    8% {
+        content: 'FullStack|';
+    }
+
+    9% {
+        content: 'FullStack|';
+    }
+
+    10% {
+        content: 'FullStack|';
+    }
+
+    21% {
+        content: 'FullStack|';
+    }
+
+    22% {
+        content: 'FullStack|';
+    }
+
+    23% {
+        content: 'FullStack|';
+    }
+
+    24% {
+        content: 'FullStac|';
+    }
+
+    25% {
+        content: 'FullSta|';
+    }
+
+    26% {
+        content: 'FullSt|';
+    }
+
+    27% {
+        content: 'FullS|';
+    }
+
+    28% {
+        content: 'Full|';
+    }
+
+    29% {
+        content: 'Ful|';
+    }
+
+    30% {
+        content: 'Fu|';
+    }
+
+    31% {
+        content: 'F|';
+    }
+
+    32% {
+        content: 'Fr|';
+    }
+
+    33% {
+        content: 'Fro|';
+    }
+
+    34% {
+        content: 'Fron|';
+    }
+
+    35% {
+        content: 'Front|';
+    }
+
+    36% {
+        content: 'Fronte|';
+    }
+
+    37% {
+        content: 'Fronten|';
+    }
+
+    38% {
+        content: 'Frontend|';
+    }
+
+    39% {
+        content: 'Frontend|';
+    }
+
+    50% {
+        content: 'Frontend|';
+    }
+
+    51% {
+        content: 'Frontend|';
+    }
+
+    52% {
+        content: 'Frontend|';
+    }
+
+    53% {
+        content: 'Fronten|';
+    }
+
+    54% {
+        content: 'Fronte|';
+    }
+
+    55% {
+        content: 'Front|';
+    }
+
+    56% {
+        content: 'Fron|';
+    }
+
+    57% {
+        content: 'Fro|';
+    }
+
+    58% {
+        content: 'Fr|';
+    }
+
+    59% {
+        content: 'F|';
+    }
+
+    60% {
+        content: '|';
+    }
+
+    61% {
+        content: 'B|';
+    }
+
+    62% {
+        content: 'Ba|';
+    }
+
+    63% {
+        content: 'Bac|';
+    }
+
+    64% {
+        content: 'Back|';
+    }
+
+    65% {
+        content: 'Backe|';
+    }
+
+    66% {
+        content: 'Backen|';
+    }
+
+    67% {
+        content: 'Backend|';
+    }
+
+    68% {
+        content: 'Backend|';
+    }
+
+    69% {
+        content: 'Backend|';
+    }
+
+    70% {
+        content: 'Backend|';
+    }
+
+    71% {
+        content: 'Backend|';
+    }
+
+    72% {
+        content: 'Backend|';
+    }
+
+    73% {
+        content: 'Backen|';
+    }
+
+    74% {
+        content: 'Backe|';
+    }
+
+    75% {
+        content: 'Back|';
+    }
+
+    76% {
+        content: 'Bac|';
+    }
+
+    77% {
+        content: 'Ba|';
+    }
+
+    78% {
+        content: 'B|';
+    }
+
+    79% {
+        content: '|';
+    }
+
+    80% {
+        content: 'W|';
+    }
+
+    81% {
+        content: 'We|';
+    }
+
+    82% {
+        content: 'Web|';
+    }
+
+    93% {
+        content: 'Web|';
+    }
+
+    94% {
+        content: 'Web|';
+    }
+
+    95% {
+        content: 'Web|';
+    }
+
+    96% {
+        content: 'Web|';
+    }
+
+    97% {
+        content: 'We|';
+    }
+
+    98% {
+        content: 'W|';
+    }
+
+    99% {
+        content: '|';
+    }
 }
