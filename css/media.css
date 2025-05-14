@@ -1,0 +1,88 @@
+@media screen and (max-width: 992px){
+    .home__subtitle{
+        font-size: 1rem;
+    }
+    .about img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    section{
+        padding: 2rem 0 4rem;
+    }
+    .home .row {
+        flex-direction: column-reverse;
+    }
+    .home picture{
+        margin: 40px 0;
+    }
+    .home .social-icons a{
+        margin-top: 20px;
+        margin-right: 20px;
+        display: inline-block;
+    }
+    .navbar>.container{
+        justify-content: flex-start;
+    }
+    .navbar-expand-sm .navbar-nav{
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        background-color: var(--bg-color);
+        transform: translateY(-120%);
+        transition: transform 0.4s ease-in-out;
+    }
+    .mode{
+        margin-left: auto;
+        margin-right: 10px;
+    }
+    .navbar .btn{
+        display: block;
+    }
+    .about img{
+        width: 100%;
+    }
+    .about .row{
+        gap: 20px;
+    }
+    .accordion-item{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+   .certificates .carousel-section{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 300px){
+    .home picture img{
+        width: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .home .button-inf{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contact-inputs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .services__icon {
+        font-size: 2rem;
+    }
+    .services__content {
+        padding: 6rem 0 2rem 2.5rem;
+    }
+    .services-model-content  {
+        width: 450px;
+    }
+}
